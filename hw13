@@ -1,0 +1,21 @@
+def quadraticFormula1(a, b, c):
+ d= b**2-4*a*c
+ sqrt= (-b+d**0.5)/ (2*a)
+ return(sqrt)
+
+
+
+def quadraticFormula2(a, b, c):
+    d = b ** 2 - 4*a*c
+    sqrt = (-b - d ** 0.5) / (2 * a)
+    return (sqrt)
+
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+c=int(input("Enter c:"))
+
+print (quadraticFormula1(a, b, c))
+print (quadraticFormula2(a, b, c))
+
+
+
